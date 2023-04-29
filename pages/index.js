@@ -3,7 +3,7 @@ import { MdDeleteForever } from "react-icons/md";
 import { GoSignOut } from "react-icons/go";
 import { useAuth } from "../firebase/auth";
 import { useRouter } from "next/router";
-import Loader from "../component/Loader";
+import Loader from "../component/loader";
 import { useEffect,useState } from "react";
 import {
     collection,
