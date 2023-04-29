@@ -2,9 +2,9 @@ import React,{useEffect, useState} from "react";
 import { FcGoogle } from "react-icons/fc";
 import {auth} from "../firebase/firebase";
 import { signInWithEmailAndPassword,GoogleAuthProvider,signInWithPopup} from "firebase/auth";
-import { useAuth } from "@/firebase/auth";
+import { useAuth } from "../firebase/auth";
 import { useRouter } from "next/router";
-import Loader from "@/component/Loader";
+import Loader from "../component/Loader";
 import Link from "next/link";
 
 const provider = new GoogleAuthProvider();
